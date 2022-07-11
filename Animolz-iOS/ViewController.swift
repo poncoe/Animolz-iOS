@@ -22,8 +22,8 @@ class ViewController: UIViewController {
             forCellReuseIdentifier: "CatCell")
     }
     @IBAction func myWebsite(_ sender: Any) {
-        let urlDicoding = "https://github.com/poncoe"
-        if let url = URL(string: urlDicoding), UIApplication.shared.canOpenURL(url) {
+        let urlOpenSource = "https://github.com/poncoe/Animolz-iOS"
+        if let url = URL(string: urlOpenSource), UIApplication.shared.canOpenURL(url) {
             UIApplication.shared.open(url)
         }
     }
