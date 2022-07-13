@@ -5,7 +5,6 @@
 //  Created by Poncoe on 10/07/22.
 //
 
-import Foundation
 import UIKit
 
 struct CatModel {
